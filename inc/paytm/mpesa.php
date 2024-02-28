@@ -33,7 +33,7 @@ class Mpesa
 
         self::$payload = array(
             'Amount' => 1, 
-            'RefNo' => 'Makori Brian',
+            'RefNo' => 'Solomon Batasi',
             'TrxCode' => 'PB',
             'CPI' => 174379,
             'MerchantName' => 'Daraja Sandbox',
@@ -54,7 +54,7 @@ class Mpesa
         $args = func_get_args();
 
         $Amount = $args[0]['TXN_AMOUNT'];
-        $AccountReference = 'hotel for Brian Makori ';
+        $AccountReference = 'hotel for Solomon Batasi';
         $CallBackURL = 'https://02a5-154-159-237-114.in.ngrok.io/callback_url.php';
         $PhoneNumber = $PartyA = $args[0]['phone-num'];
 
