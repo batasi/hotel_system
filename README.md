@@ -17,3 +17,4 @@ after importing the file, open a new tab in your browser and type http://localho
 it should display the website, click on it and then admin to get to admin panel
 open another new tab in your browser and type http://localhost/admin/
 
+willing to get more projects or buy some cofee dont hesitate to reach out
